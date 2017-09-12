@@ -16,6 +16,9 @@ body {
 /** Header will contain the logo and the nav dropdown with an orange background and white text. **/
 
 header{
+    float:left;
+    margin-left: 25%;
+    position: fixed;
     background:#FF893C;
     color:black;
   }
