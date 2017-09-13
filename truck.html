@@ -19,11 +19,11 @@ Supporting Files: suv.html, sedan.html, index.html, inventory.html and ma_Styles
 
 
     <!-- LINKS TO CSS FILE, and stylesheets for FAVICON, BOOTSTRAP, FONTAWESONME,GOOGLE FONTS -->  
-    <link rel="stylesheet" href="ma_styles.css"> 
+     
     <link rel= "shortcut icon" href="<!-- FAVICON LINK GOES HERE -->" type="image/x-icon"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="./ma_styles.css">
     
     <!-- PAGE TITLE  -->
     <title> Murphy Auto | Truck </title>
@@ -39,34 +39,41 @@ Supporting Files: suv.html, sedan.html, index.html, inventory.html and ma_Styles
 
   <body>
 
- <header>
- <!-- Image and text -->
-<nav class="navbar navbar-light bg-#FF893C">
-  <a class="navbar-brand" href="#">
-    <img src="murphy_auto.png" width="75" height="75" class="d-inline-block align-top" alt="">
-    You're in luck. Murphy's Auto has a variety of used vehicles to choose from.
-  </a>
-
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="../sedan.html">Sedan</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="../truck.html">Truck</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link " href="../suv.html">SUV</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link " href="../inventory.html">SUV</a>
-      </li>
-    </ul>
-
-</nav>
+   <header>
+      
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="./index.html">
+          <img src="murphy_auto.png" width="85" height="85" class="align-top" alt="logo">
+          <span class="tagline">
+            You're in luck.
+          </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./sedan.html">Sedan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./truck.html">Truck</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="./suv.html">SUV</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="./inventory.html">Inventory</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
     </header>
+
 
 
 
