@@ -10,16 +10,23 @@ File name: ma_styles.css */
 body {
 
   background:white;
-  color:white;
+  color:black;
 }
 
 /** Header will contain the logo and the nav dropdown with an orange background and white text. **/
 
-header{
+header .navbar{
+  background:#FF893C;
+  color:black;
+}
 
-    background:#FF893C;
-    color:black;
-  }
+header .tagline{
+  line-height: 83px;
+  padding-left: 10px;
+  font-size: 32px;
+}
+
+
 
 /** Footer will contain contact info, with a green background and white text. **/
 footer{
@@ -30,3 +37,4 @@ footer{
 
 
 /** FONTS **/
+
