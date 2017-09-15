@@ -26,7 +26,9 @@ header .tagline{
   font-size: 32px;
 }
 
-
+h1 {
+  text-align: center;
+}
 
 /** Footer will contain contact info, with a green background and white text. **/
 footer{
@@ -34,7 +36,26 @@ footer{
   color:white;
 }
 
+footer address a  {
+  color:#FF893C;
+  
+}
 
+footer address a:hover {
+  color:yellow;
+}
 
 /** FONTS **/
 
+/*Car Statistics styles*/
+
+.model-stats tr td:first-of-type{
+  text-transform: uppercase;
+  text-align: right; 
+  font-weight: bold;
+  
+}
+
+.model-stats tr td {
+  width: 50%;
+}
