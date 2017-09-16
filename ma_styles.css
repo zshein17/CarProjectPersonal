@@ -30,10 +30,6 @@ h1 {
   text-align: center;
 }
 
-h2 {
-
-  text-align: center;
-}
 
 /** Footer will contain contact info, with a green background and white text. **/
 footer{
@@ -59,40 +55,43 @@ footer address a:hover {
 
 }
 
-
+div.headlineIndex{
+    text-align: center;
+    padding-top: 10px;
+}
 
 
 /* Carousel*/
 
 .carousel {
 
-    max-height: 640px;
+    max-height: 635px;
 
 }
 
 div.c-wrapper{
-    width: 75%;
+    width: 65%;
     background: linear-gradient(0deg, white, white 40%, darkorange);
     margin: auto;
 
 }
 
 div.c-wrapper2{
-    width: 75%;
+    width: 65%;
     background: linear-gradient(0deg, white, white 40%, darkorange);
     margin: auto;
 
 }
 
 div.c-wrapper3{
-    width: 75%;
+    width: 65%;
     background: linear-gradient(0deg, white, white 40%, darkorange);
     margin: auto;
 
 }
 
 div.c-wrapper4{
-    width: 75%;
+    width: 65%;
     margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
