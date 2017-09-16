@@ -38,12 +38,82 @@ footer{
 
 footer address a  {
   color:#FF893C;
-  
+
 }
 
 footer address a:hover {
   color:yellow;
 }
+
+/* Inventory Button */
+
+.invButton {
+    position: relative;
+    text-align: center;
+
+
+}
+
+
+
+
+/* Carousel*/
+
+.carousel {
+
+    max-height: 640px;
+
+}
+
+div.c-wrapper{
+    width: 75%;
+    background: linear-gradient(0deg, white, white 40%, darkorange);
+    margin: auto;
+
+}
+
+div.c-wrapper2{
+    width: 75%;
+    background: linear-gradient(0deg, white, white 40%, darkorange);
+    margin: auto;
+
+}
+
+div.c-wrapper3{
+    width: 75%;
+    background: linear-gradient(0deg, white, white 40%, darkorange);
+    margin: auto;
+
+}
+
+div.c-wrapper4{
+    width: 75%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 48px;
+    height: 5px;
+    margin: 5px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    background-color: darkorange;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);
+}
+.carousel-indicators .active {
+    width: 48px;
+    height: 5px;
+    margin: 5px;
+    background-color: green;
+}
+
 
 /** FONTS **/
 
@@ -51,9 +121,9 @@ footer address a:hover {
 
 .model-stats tr td:first-of-type{
   text-transform: uppercase;
-  text-align: right; 
+  text-align: right;
   font-weight: bold;
-  
+
 }
 
 .model-stats tr td {
