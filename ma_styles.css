@@ -30,6 +30,11 @@ h1 {
   text-align: center;
 }
 
+h2 {
+
+  text-align: center;
+}
+
 /** Footer will contain contact info, with a green background and white text. **/
 footer{
   background:#0f9c62;
