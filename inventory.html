@@ -13,18 +13,19 @@ Supporting Files: suv.html, sedan.html, truck.html, index.html and ma_Styles.css
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Murphy Auto New and Used Car Dealership in Hampton Roads.">
-    <meta name="keywords" content="SUV, Sedan, Trucks, Used SUV, Used Sedans, Used Trucks, Used cars, Used vehicles, 
-                                   car dealership, Virginia Beach, VA, Hampton Roads, Sell your car, Murphy Auto, 
+    <meta name="keywords" content="SUV, Sedan, Trucks, Used SUV, Used Sedans, Used Trucks, Used cars, Used vehicles,
+                                   car dealership, Virginia Beach, VA, Hampton Roads, Sell your car, Murphy Auto,
                                    Murphy Auto Car Dealership">
 
 
-    <!-- LINKS TO CSS FILE, and stylesheets for FAVICON, BOOTSTRAP, FONTAWESONME,GOOGLE FONTS -->  
-    
-    <link rel= "shortcut icon" href="<!-- FAVICON LINK GOES HERE -->" type="image/x-icon"/>
+    <!-- LINKS TO CSS FILE, and stylesheets for FAVICON, BOOTSTRAP, FONTAWESONME,GOOGLE FONTS -->
+
+    <link rel= "shortcut icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./ma_styles.css"> 
-    
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Chau+Philomene+One|Gidugu|NTR|Wire+One" rel="stylesheet">
+    <link rel="stylesheet" href="./ma_styles.css">
+
     <!-- PAGE TITLE  -->
     <title> Murphy Auto | Inventory </title>
   </head>
@@ -32,12 +33,12 @@ Supporting Files: suv.html, sedan.html, truck.html, index.html and ma_Styles.css
   <body>
 
  <header>
-      
+
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="./index.html">
           <img src="murphy_auto.png" width="85" height="85" class="align-top" alt="logo">
           <span class="tagline">
-            You're in luck.
+             The #1 Used Vechicle Destination in Hampton Roads.
           </span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +47,7 @@ Supporting Files: suv.html, sedan.html, truck.html, index.html and ma_Styles.css
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="./index.html"><i class="fa fa-home fa-lg" aria-hidden="true"></i></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./sedan.html">Sedan</a>
@@ -63,34 +64,193 @@ Supporting Files: suv.html, sedan.html, truck.html, index.html and ma_Styles.css
           </ul>
         </div>
       </nav>
-      
+
     </header>
 
-<!-- Inventory Grid: 
+    <!-- Inventory Grid: -->
+    <div class="tableCaptions"> Sedan Inventory </div>
+    <table class="table table-striped table-inverse">
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>Make</th>
+          <th>Model</th>
+          <th>Color</th>
+          <th>Price</th>
+          <th>Mileage</th>
+        </tr>
+      </thead>
 
-     YEAR  MAKE    MODEL                COLOR      PRICE     MILEAGE
-                2016  Hyundai Santa Fe Sport 2.0T  Orange     $21,000   68,000    -01
-                2015  Hyundai Santa Fe Sport       Blue       $19,999   85,000    -02
-                2015  Hyundai Santa Fe Sport       Yellow     $17,599   105,000   -03
-                2015  Hyundai Santa Fe Sport       Red        $20,500   81,000    -04
-                2014  Hyundai Santa Fe Sport       Black      $17,500   150,000   -05
+      <tbody>
+        <tr>
+          <td scope="row">2016</td>
+          <td>Hyunsdai</td>
+          <td>Santa Fe Sport</td>
+          <td>Orange</td>
+          <td>&#36;21,000</td>
+          <td>68,000</td>
+        </tr>
 
-                
-            	YEAR  MAKE    MODEL                COLOR      PRICE     MILEAGE
-                2016  Hyundai Elantra              Burgandy   $17,999   67,000    -01
-                2015  Hyundai Elantra              Blue       $17,000   84,000    -02
-                2015  Hyundai Elantra              Yellow     $16,900   103,000   -03
-                2015  Hyundai Elantra              Red        $17,500   89,000    -04
-                2014  Hyundai Elantra              Black      $16,500   145,000   -05
+        <tr>
+            <td scope="row">2015</td>
+            <td>Hyundai</td>
+            <td>Santa Fe Sport</td>
+            <td>Blue</td>
+            <td>&#36;19,999</td>
+            <td>85,000</td>
+       </tr>
 
-                YEAR  MAKE    MODEL                COLOR      PRICE     MILEAGE
-                2016  Toyota  Tundra               Gold       $29,999   64,000    -01
-                2015  Toyota  Tundra               White      $28,000   83,000    -02
-                2015  Toyota  Tundra               Silver     $27,500   101,000   -03
-                2015  Toyota  Tundra               Red        $28,999   87,000    -04
-                2014  Toyota  Tundra               Black      $27,999   143,000   -05 -->
-                
-                
+       <tr>
+          <td scope="row">2015</td>
+          <td>Hyundai</td>
+          <td>Santa Fe Sport</td>
+          <td>Yellow</td>
+          <td>&#36;17,599</td>
+          <td>105,000</td>
+      </tr>
+
+      <tr>
+         <td scope="row">2015</td>
+         <td>Hyundai</td>
+         <td>Santa Fe Sport</td>
+         <td>Red</td>
+         <td>&#36;20,500</td>
+         <td>81,000</td>
+     </tr>
+
+     <tr>
+        <td scope="row">2014</td>
+        <td>Hyundai</td>
+        <td>Santa Fe Sport</td>
+        <td>Black</td>
+        <td>&#36;17,500</td>
+        <td>150,000</td>
+    </tr>
+    </tbody>
+  </table>
+
+  <div class="tableCaptions"> Truck Inventory </div>
+  <table class="table table-striped table-inverse">
+    <thead>
+      <tr>
+        <th>Year</th>
+        <th>Make</th>
+        <th>Model</th>
+        <th>Color</th>
+        <th>Price</th>
+        <th>Mileage</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td scope="row">2016</td>
+        <td>Hyundai</td>
+        <td>Elantra</td>
+        <td>Burgundy</td>
+        <td>&#36;17,999</td>
+        <td>67,000</td>
+      </tr>
+
+      <tr>
+          <td scope="row">2015</td>
+          <td>Hyundai</td>
+          <td>Elantra</td>
+          <td>Blue</td>
+          <td>&#36;17,000</td>
+          <td>84,000</td>
+     </tr>
+
+     <tr>
+        <td scope="row">2015</td>
+        <td>Hyundai</td>
+        <td>Elantra</td>
+        <td>Yellow</td>
+        <td>&#36;16,900</td>
+        <td>103,000</td>
+    </tr>
+
+    <tr>
+       <td scope="row">2015</td>
+       <td>Hyundai</td>
+       <td>Elantra</td>
+       <td>Red</td>
+       <td>&#36;17,500</td>
+       <td>89,000</td>
+   </tr>
+
+   <tr>
+      <td scope="row">2014</td>
+      <td>Hyundai</td>
+      <td>Elantra</td>
+      <td>Black</td>
+      <td>&#36;16,500</td>
+      <td>145,000</td>
+  </tr>
+  </tbody>
+</table>
+
+<div class="tableCaptions"> SUV Inventory </div>
+<table class="table table-striped table-inverse">
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Make</th>
+      <th>Model</th>
+      <th>Color</th>
+      <th>Price</th>
+      <th>Mileage</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td scope="row">2016</td>
+      <td>Toyota</td>
+      <td>Tundra</td>
+      <td>Gold</td>
+      <td>&#36;29,999</td>
+      <td>64,000</td>
+    </tr>
+
+    <tr>
+        <td scope="row">2015</td>
+        <td>Toyota</td>
+        <td>Tundra</td>
+        <td>White</td>
+        <td>&#36;28,000</td>
+        <td>83,000</td>
+   </tr>
+
+   <tr>
+      <td scope="row">2015</td>
+      <td>Toyota</td>
+      <td>Tundra</td>
+      <td>Silver</td>
+      <td>&#36;27,500</td>
+      <td>101,000</td>
+  </tr>
+
+  <tr>
+     <td scope="row">2015</td>
+     <td>Toyota</td>
+     <td>Tundra</td>
+     <td>Red</td>
+     <td>&#36;28,999</td>
+     <td>87,000</td>
+ </tr>
+
+ <tr>
+    <td scope="row">2014</td>
+    <td>Toyota</td>
+    <td>Tundra</td>
+    <td>Black</td>
+    <td>&#36;27,999</td>
+    <td>143,000</td>
+</tr>
+</tbody>
+</table>
+
     <!-- Footer -->
 
     <footer class="fixed-bottom">
@@ -101,14 +261,14 @@ Supporting Files: suv.html, sedan.html, truck.html, index.html and ma_Styles.css
         1776 Freedom Lane &bull;
         Virginia Beach, Virginia 23454
       </address>
-    </footer>            
-      
-      
+    </footer>
+
+
     <!-- Plugins for  Bootstrap: jQuery (slim build) & Popper.js  -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-    
+
     <script>
 
     </script>
@@ -120,9 +280,9 @@ Supporting Files: suv.html, sedan.html, truck.html, index.html and ma_Styles.css
         1776 Freedom Lane &bull;
         Virginia Beach, Virginia 23454
       </address>
-    </footer>  
+    </footer>
   </body>
-  
-   
+
+
 
 </html>
