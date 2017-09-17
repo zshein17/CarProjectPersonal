@@ -5,25 +5,27 @@ File name: ma_styles.css */
 
 
 
-/** BODY STYLES **/
+/** Body Styles **/
 
 body {
 
   background:white;
   color:black;
+  font-family: 'Allerta Stencil', sans-serif;
 }
 
 /** Header will contain the logo and the nav dropdown with an orange background and white text. **/
 
-header .navbar{
+header .navbar {
   background:#FF893C;
   color:black;
 }
 
-header .tagline{
+header .tagline {
+  font-family: 'Allerta Stencil', sans-serif;
   line-height: 83px;
   padding-left: 10px;
-  font-size: 32px;
+  font-size: 18px;
 }
 
 h1 {
@@ -32,7 +34,7 @@ h1 {
 
 
 /** Footer will contain contact info, with a green background and white text. **/
-footer{
+footer {
   background:#0f9c62;
   color:white;
 }
@@ -45,6 +47,17 @@ footer address a  {
 footer address a:hover {
   color:yellow;
 }
+
+/** Inventory Page Styles **/
+
+.tableCaptions {
+  font-weight: bold;
+  text-align: center;
+
+}
+
+
+
 
 /* Inventory Button */
 
@@ -119,7 +132,20 @@ div.c-wrapper4{
 }
 
 
-/** FONTS **/
+
+
+
+
+
+
+/** Font Styles  **/
+font-family: 'Allerta Stencil', sans-serif;
+font-family: 'NTR', sans-serif;
+font-family: 'Wire One', sans-serif;
+font-family: 'Chau Philomene One', sans-serif;
+font-family: 'Gidugu', sans-serif;
+
+
 
 /*Car Statistics styles*/
 
